@@ -4,11 +4,13 @@ This capstone project will be graded by your peers. This capstone project is wor
 For this week, you will required to submit the following:
 
 __1. A description of the problem and a discussion of the background. (15 marks)__
+
 __2. A description of the data and how it will be used to solve the problem. (15 marks)__
 
 For the second week, the final deliverables of the project will be:
 
 __1. A link to your Notebook on your Github repository, showing your code. (15 marks)__
+
 __2. A full report consisting of all of the following components (15 marks):__
 - Introduction where you discuss the business problem and who would be interested in this project.
 - Data where you describe the data that will be used to solve the problem and the source of the data.
