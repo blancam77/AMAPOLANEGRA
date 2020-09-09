@@ -3,8 +3,8 @@ This capstone project will be graded by your peers. This capstone project is wor
 
 For this week, you will required to submit the following:
 
-__1. A description of the problem and a discussion of the background. (15 marks)
-2. A description of the data and how it will be used to solve the problem. (15 marks)
+__1. A description of the problem and a discussion of the background. (15 marks)__
+__2. A description of the data and how it will be used to solve the problem. (15 marks)__
 
 For the second week, the final deliverables of the project will be:
 
