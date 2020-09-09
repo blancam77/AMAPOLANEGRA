@@ -8,8 +8,8 @@ __2. A description of the data and how it will be used to solve the problem. (15
 
 For the second week, the final deliverables of the project will be:
 
-__1. A link to your Notebook on your Github repository, showing your code. (15 marks)
-2. A full report consisting of all of the following components (15 marks):
+__1. A link to your Notebook on your Github repository, showing your code. (15 marks)__
+__2. A full report consisting of all of the following components (15 marks):__
 - Introduction where you discuss the business problem and who would be interested in this project.
 - Data where you describe the data that will be used to solve the problem and the source of the data.
 - Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
@@ -17,4 +17,4 @@ __1. A link to your Notebook on your Github repository, showing your code. (15 m
 - Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
 - Conclusion section where you conclude the report.
 
-__3. Your choice of a presentation or blogpost. (10 marks)
+__3. Your choice of a presentation or blogpost. (10 marks)__
