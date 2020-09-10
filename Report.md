@@ -19,11 +19,11 @@ _La Liga_ teams would be very interested in accurate prediction of player improv
 
 __Data sources__
 
-Most player stats, position, age, and draft position data can be found in this two Kaggle datasets https://www.kaggle.com/alvarob96/laliga_2018-19_season_player_stats and https://www.kaggle.com/pabloreyesalmagro/laliga-players-stats-2019
+Most player stats, position, age, and draft position data can be found in this Kaggle dataset https://www.kaggle.com/alvarob96/laliga_2018-19_season_player_stats
 
 __Data cleaning__
 
-Data downloaded is combined into one table. I decided to only use data from 2018/2019 and 2019/2020 seasons.
+I decided to only use data from 2018/2019 and 2019/2020 seasons.
 
 ## Methodology
 The main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
