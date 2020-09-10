@@ -9,7 +9,7 @@ The _Campeonato Nacional de Liga de Primera División_, commonly known as _La Li
 
 __Problem__
 
-Data that might contribute to determining player improvement might include his performance last season, his age, his draft status, his position, and metrics that describe what kind of player he is. This project aims to predict whether and how much a player will improve the next season based on these data.
+Data that might contribute to determining player improvement might include his performance last season, his age, his draft status, his position, and metrics that describe what kind of player he is. This project aims to predict whether or not a player will improve the next season based on these data.
 
 __Interest__
 
@@ -19,20 +19,26 @@ _La Liga_ teams would be very interested in accurate prediction of player improv
 
 __Data sources__
 
-Most player stats, position, age, and draft position data can be found in this Kaggle dataset https://www.kaggle.com/alvarob96/laliga_2018-19_season_player_stats
+Most player stats, position, and other data can be found in this Kaggle dataset https://www.kaggle.com/alvarob96/laliga_2018-19_season_player_stats
 
 __Data cleaning & Feature Selection__
 
 Non-relevant data for this purpose has been removed from this dataset, therefore only the following parameters have been selected:
 
-* Minutes Played
+* Minutes played
 * Goals scored
 * Passes
 * Interceptions
 * Recoveries
 
-## Methodology
-The main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+## Exploratory Data Analysis
+
+Player improvement for the next season was not a feature in the dataset, and had to be calculated. I chose to do different calculations depending on player position:
+
+* Forward: Minutes Played>=500 & Goals scored>=3 --> He will improve next season
+* Midfielder: Minutes Played>=500 & Passes>=350 --> He will improve next season
+* Defender: Interceptions>=25 & Recoveries>=50 ---> He will improve next season
+* Goalkeeper: Recoveries>=150 ---> He will improve next season
 
 ## Results
 You discuss the results.
