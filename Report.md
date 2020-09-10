@@ -21,9 +21,15 @@ __Data sources__
 
 Most player stats, position, age, and draft position data can be found in this Kaggle dataset https://www.kaggle.com/alvarob96/laliga_2018-19_season_player_stats
 
-__Data cleaning__
+__Data cleaning & Feature Selection__
 
-I decided to only use data from 2018/2019 and 2019/2020 seasons.
+Non-relevant data for this purpose has been removed from this dataset, therefore only the following parameters have been selected:
+
+* Minutes Played
+* Goals scored
+* Passes
+* Interceptions
+* Recoveries
 
 ## Methodology
 The main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
