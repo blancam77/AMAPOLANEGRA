@@ -25,7 +25,7 @@ __Data cleaning & Feature Selection__
 
 Non-relevant data for this purpose has been removed from this dataset, therefore only the following parameters have been selected:
 
-* Minutes played
+* Games played
 * Goals scored
 * Passes
 * Interceptions
@@ -35,7 +35,7 @@ Non-relevant data for this purpose has been removed from this dataset, therefore
 
 Player improvement for the next season was not a feature in the dataset, and had to be calculated. I chose to do different calculations depending on player position:
 
-* Forward: Minutes Played>=500 & Goals scored>=3 --> He/They will improve next season
+* Forward: Games played 2019 - Games played> 2017=500 & Goals scored>=3 --> He/They will improve next season
 * Midfielder: Minutes Played>=500 & Passes>=350 --> He will improve next season
 * Defender: Interceptions>=25 & Recoveries>=50 ---> He will improve next season
 * Goalkeeper: Recoveries>=150 ---> He will improve next season
