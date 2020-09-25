@@ -33,12 +33,7 @@ Non-relevant data for this purpose has been removed from this dataset, therefore
 
 ## Exploratory Data Analysis
 
-Player improvement for the next season was not a feature in the dataset, and had to be calculated. I chose to do different calculations depending on player position:
-
-* Forward: Games played 2019 - Games played> 2017=500 & Goals scored>=3 --> He/They will improve next season
-* Midfielder: Minutes Played>=500 & Passes>=350 --> He will improve next season
-* Defender: Interceptions>=25 & Recoveries>=50 ---> He will improve next season
-* Goalkeeper: Recoveries>=150 ---> He will improve next season
+Exploratory Data Analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics, often with visual methods. EDA is used for seeing what the data can tell us before the modeling task.
 
 ## Results
 You discuss the results.
