@@ -1,7 +1,6 @@
-# Predicting the Improvement of La Liga players
+# La Liga players
 
 ## Introduction
-
 
 __Background__
 
@@ -30,15 +29,28 @@ Non-relevant data for this purpose has been removed from this dataset, therefore
 * Passes
 * Interceptions
 * Recoveries
+* Shots
+* Assists
+* Corners
 
 ## Exploratory Data Analysis
 
 Exploratory Data Analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics, often with visual methods. EDA is used for seeing what the data can tell us before the modeling task.
 
+* Correlation Matrix
+* Histograms
+
+SEE NOTEBOOK
+
+## Statistical Testing: Linear Regression
+
+SEE NOTEBOOK
+
 ## Results
-You discuss the results.
+
+SEE NOTEBOOK
 
 ## Discussion & Conclusion
-You discuss any observations you noted and any recommendations you can make based on the results.
-Conclusion section where you conclude the report.
+
+SEE NOTEBOOK
 
